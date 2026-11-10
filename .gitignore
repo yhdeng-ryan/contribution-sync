@@ -1,4 +1,11 @@
 # Byte-compiled / optimized / DLL files
+# Local identities and generated previews belong outside this repository.
+/config*.toml
+!/config.example.toml
+/preview*.json
+/audit*.json
+/import*.csv
+/local/
 __pycache__/
 *.py[codz]
 *$py.class

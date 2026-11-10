@@ -1,0 +1,17 @@
+# Copy to ../local/config.toml. Paths are relative to the config file.
+work_emails = ["you@company.example"]
+
+[destination]
+path = "../contribution-history"
+branch = "main"
+name = "Destination commit name"
+email = "YOUR_ID+YOUR_USERNAME@users.noreply.github.com"
+
+[[sources]]
+path = "../source-repository"
+# Omit ref to read the local origin/HEAD default branch.
+# No automatic fetch: update the local clone using your preferred Git client.
+# ref = "refs/remotes/origin/main"
+
+# [[sources]]
+# path = "../another-source-repository"
